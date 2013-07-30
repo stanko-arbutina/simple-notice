@@ -1,0 +1,257 @@
+﻿body {
+	background-color:#EEEEFF;
+	width: 95%;
+	color: #444466;
+	font-size: 20;
+}
+a {
+	color: #9999AA;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+div.filler {
+	width: 100%;
+	height: 130px;
+	background-image: url('pat.gif');
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+div.filler img{
+	height: 120px;
+	margin: 5px;
+}
+.inputlabel{
+	font-weight: bold;
+	color: #EEEEFF;
+}
+span#logo{
+	position: absolute;
+	font-size: 50px;
+	color: #999999;
+	top: 30px;
+	left: 110px;
+}
+span#logo_help{
+	position: absolute;
+	font-size: 50px;
+	color: #CCCCFF;
+	top: 31px;
+	left: 112px;
+}
+span#page_description{
+	position: absolute;
+	font-size: 15px;
+	color: #CCCCCC;
+	top: 95px;
+	left: 130px;
+	border-top: 1px solid;
+}
+ul.menu{
+	float: left;
+	padding: 0px;
+	margin: 10px;
+	list-style-type: none;
+	width: 10%;
+}
+ul.menu li{
+	border-bottom: 1px dotted black;
+	width: 90%;
+}
+ul.menu li a{
+	font-size: 20px;
+	color: #555566;
+	text-decoration: none;
+}
+ul.menu li a:hover{
+	background-color: #CCCCFF;
+}
+div.main {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+form {
+	padding: 0px;
+	margin: 0px;
+	width: 80%;
+	margin-left: 10%;
+}
+form fieldset {
+	background-image: url('brush.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #444466;
+	border-style: groove;
+	border-color: #444466;
+	color: #EEEEFF;
+}
+form.login_form{
+	margin-left: 30%;
+	width: 40%;
+}
+form.login_form fieldset{
+	background-position: left;	
+	background-image: url('keys.png');
+	padding-left: 72px;
+}
+form legend {
+	border: 1px solid black;
+	background-color: #EEEEFF;
+	color:   #444466;
+}
+
+form span{
+	font-weight: bold;
+}
+form input,select, textarea{
+	background-color: #DDDDEE;
+}
+
+
+.ui_button{
+	height: 35px;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-color: #DDDDEE;
+	background-position: left top;
+	color:   #444466;
+	position: relative;
+	margin: 3px;
+	font-weight: bold;
+	border: 1px solid #444466;
+}
+
+.add_link:hover,.edit_link:hover,.delete_link:hover{
+	text-decoration: none;
+}
+.add_link,.edit_link,.delete_link{
+	display: block;
+	float: left;
+	padding-top: 6px;
+	height: 27px;
+}
+
+.add_link{
+	float: none;
+	background-image: url('icons/designcode/document.png');
+	width: 250px;
+	margin-left: 10%;
+}
+.edit_link{
+	background-image: url('icons/designcode/pencil.png');
+	width: 50px;
+}
+.delete_link{
+	background-image: url('icons/designcode/error.png');
+	width: 43px;
+}
+
+
+form input.submit_button{
+	background-image: url('icons/designcode/checkmark.png');
+}
+
+form input.reset_button{
+	background-image: url('icons/designcode/delete.png');
+}
+
+.user_info{
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: relative;
+	left: 35%;
+	min-height: 30px;
+	width: 30%;
+	padding: 5px;
+	padding-bottom: 0px;
+	margin: 3px;
+	padding-left: 35px;
+}
+div.dserrorlist, div.dserror, div.dberror{
+	background-image: url('icons/designcode/stop.png');
+	background-color: #FFCCCC;
+	border: 1px dashed red;
+}
+div.dswarninglist{
+	background-image: url('icons/designcode/warning.png');
+	background-color: #CCCCFF;
+	border: 1px dashed blue;
+}
+div.dsmessage{
+	background-image: url('icons/designcode/thumbtack-green.png');
+	position: relative;
+	background-color: #CCFFCC;
+	border: 1px dashed green;
+}
+
+table.listTable{
+	margin-left: 10%;
+	width: 80%;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+	
+}
+table.listTable th{
+	background-color: #444466;
+	color:#EEEEFF;
+}
+table.listTable td,th{
+	text-align: center;
+	border: 1px solid black;
+}
+table.listTable td.action_cell{
+	width: 179px;
+}
+
+.checkboxlist{
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+}
+.checkboxlist li{
+	margin-left: 10px;
+}
+div.obavijest{
+	margin: 5px;
+	margin-left:15%;
+	width: 70%;
+	border: 1px solid #3333FF;
+	background-color: #CCCCFF;
+}
+div.obavijest{
+	margin: 5px;
+	margin-left:15%;
+	width: 70%;
+	border: 1px solid #3333FF;
+	background-color: #CCCCFF;
+}
+div.obavijest_kolegiji{
+	margin: 2px;
+	font-size: 16;
+	float: right;
+	color: #333355;
+}
+div.obavijest_naslov{
+	margin: 10px;
+	font-size: 26;
+	font-weight: bold;
+	text-decoration: underline;
+}
+div.obavijest_datum{
+	margin-left: 30px;
+	font-size: 16;
+	font-style: italic;
+}
+div.obavijest_vrsta{
+	font-size: 16;
+	margin-left: 30px;
+}
+
+div.obavijest_tekst{
+	margin: 10px;
+}
